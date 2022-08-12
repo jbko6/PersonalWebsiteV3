@@ -1,0 +1,107 @@
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("assets/cloth-bg.png");
+  background-size: auto;
+}
+
+#left-text {
+  width: 90%;
+  margin: 3em auto;
+}
+
+#sublinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.no-select {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.cloth-text {
+  opacity: 0.75;
+  transition: 0.2s;
+}
+
+.cloth-text:hover {
+  opacity: 1;
+}
+
+.cloth-text-no-link {
+  opacity: 0.75;
+}
+
+#about-text {
+  align-self: flex-start;
+  height: 40px;
+}
+
+#contact-text {
+  align-items: flex-end;
+  height: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#copyright-text {
+  height: 1em;
+  position: relative;
+}
+
+@media (min-width: 900px) {
+  #left-text {
+    margin: 5% 7%;
+    width: 40%;
+  }
+
+  #jk-text {
+    padding-bottom: 1em;
+  }
+
+  #sublinks {
+    display: grid;
+  }
+
+  #about-text {
+    height: 5em;
+    padding-bottom: 1em;
+  }
+
+  #contact-text {
+    height: 5em;
+  }
+
+  footer {
+    bottom: 6em;
+    left: 7%;
+    right: auto;
+    width: 15%;
+    display: block;
+    justify-content: start;
+  }
+
+  #copyright-text {
+    width: 20em;
+    height: auto;
+  }
+}
