@@ -46,6 +46,11 @@ body {
   opacity: 0.75;
 }
 
+.disable-link {
+  pointer-events: none;
+  cursor: default;
+}
+
 #about-text {
   align-self: flex-start;
   height: 40px;
