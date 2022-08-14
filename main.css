@@ -7,8 +7,10 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("assets/cloth-bg.png");
-  background-size: auto;
+  background-image: url("assets/cloth-bg-high-res.jp"),
+    url("assets/cloth-bg-low-res.jpg");
+  background-size: auto, 225%;
+  background-color: #d7d0ca;
 }
 
 #left-text {
