@@ -61,6 +61,33 @@ body {
   height: 40px;
 }
 
+#right-turnstile {
+  position: absolute;
+  bottom: 2em;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  opacity: 0.65;
+  text-align: center;
+  left: 0.5em;
+  right: 0.5em;
+}
+
+#contact-me {
+  line-height: 200%;
+  color: #1e1e1e;
+}
+
+#contact-me > a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#contact-me > a:visited {
+  color: #1e1e1e;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -96,6 +123,22 @@ footer {
 
   #contact-text {
     height: 5em;
+  }
+
+  #right-turnstile {
+    position: absolute;
+    left: auto;
+    right: 7%;
+    top: auto;
+    bottom: 1em;
+    width: 30%;
+    height: auto;
+    font-size: xx-large;
+    text-align: right;
+  }
+
+  #contact-me {
+    line-height: normal;
   }
 
   footer {
