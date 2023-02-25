@@ -56,6 +56,10 @@ body {
   height: 40px;
 }
 
+#about-me {
+  opacity: 0.65;
+}
+
 #contact-text {
   align-items: flex-end;
   height: 40px;
@@ -68,7 +72,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: x-large;
-  opacity: 0.65;
   text-align: center;
   left: 0.5em;
   right: 0.5em;
@@ -77,6 +80,7 @@ body {
 #contact-me {
   line-height: 200%;
   color: #1e1e1e;
+  opacity: 0.65;
 }
 
 #contact-me > a:link {
@@ -86,6 +90,13 @@ body {
 
 #contact-me > a:visited {
   color: #1e1e1e;
+}
+
+#my-photo {
+  align-self: start;
+  height: 13em;
+  transform: scaleX(-1);
+  opacity: 0.9;
 }
 
 footer {
