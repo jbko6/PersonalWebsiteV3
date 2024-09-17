@@ -95,7 +95,6 @@ body {
 #my-photo {
   align-self: start;
   height: 13em;
-  transform: scaleX(-1);
   opacity: 0.9;
 }
 
